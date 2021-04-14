@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* <header> */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav img {
+    max-height: 8%;
+    max-width: 8%;
+    padding-left: 1%;
+}
+/* </header> */
+
+
+/* Rubrik */
+.rubrik {
+    font-size: 100%;
+    color: white;
+     text-align: center;
+     background-image: url('img/spaghetti-1932466_1280.jpg');
+     padding: 120px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
