@@ -28,10 +28,7 @@
     max-width: 8%;
     padding-left: 1%;
 }
-/* </header> */
 
-
-/* Rubrik */
 .rubrik {
     font-size: 100%;
     color: white;
@@ -39,8 +36,10 @@
      background-image: url('img/spaghetti-1932466_1280.jpg');
      padding: 120px;
 }
+/* </header> */
 
-/* Style the footer */
+
+/* <footer> */
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
