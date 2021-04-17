@@ -29,11 +29,11 @@
     padding-left: 1%;
 }
 
-.rubrik {
+.heading {
     font-size: 100%;
     color: white;
      text-align: center;
-     background-image: url('img/spaghetti-1932466_1280.jpg');
+     background-image: url('img/spaghetti.jpg');
      padding: 120px;
 }
 /* </header> */
