@@ -42,68 +42,22 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   align-items: end;
-  grid-auto-rows: 200px;
+  grid-auto-rows: 450px;
   text-align: center;
-}
-.box1 {
-  color: blue;
-}
-.box2 {
-  color: brown;
-}
-.box3 {
-  color: blue;
-}
-.box4 {
-  color: brown;
-}
-.box5 {
-  color: blue;
-}
-.box6 {
-  color: brown;
-}
-.box7 {
-  color: blue;
-}
-.box8 {
-  color: brown;
-}
-.box9 {
-  color: blue;
-}
-.box10 {
-  color: brown;
-}
-.box11 {
-  color: blue;
-}
-.box12 {
-  color: brown;
-}
-.box13 {
-  color: blue;
-}
-.box14 {
-  color: brown;
-}
-.box15 {
-  color: blue;
-}
-.box16 {
-  color: brown;
-}
-.box17 {
-  color: blue;
-}
-.box18 {
-  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  margin-bottom: 7%;
 }
 
 /* <footer> */
 .footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: end;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1e0;
+  padding: 50px;
 }
 
 

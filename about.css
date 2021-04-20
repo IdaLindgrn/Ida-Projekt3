@@ -31,16 +31,20 @@
 
 .heading {
     font-size: 100%;
-    color: white;
      text-align: center;
-     background-image: url('img/spaghetti-1932466_1280.jpg');
-     padding: 120px;
+     background-color: #f1f1f1e0;
+     padding: 100px;
 }
 /* </header> */
 
 
 /* <footer> */
 .footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: end;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1e0;
+  padding: 50px;
 }
