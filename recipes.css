@@ -60,4 +60,11 @@
   padding: 50px;
 }
 
+.footer a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3%;
+  text-decoration: none;
+}
 
