@@ -43,15 +43,13 @@
 
 .main {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 33% 66%;
   align-items: start;
   text-align: start;
-  font-size: 100%;
   padding: 100px;
 }
 
 .flex {
-  width: 200%;
   font-size: 100%;
 }
 
