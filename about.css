@@ -44,14 +44,12 @@
 .main {
   display: grid;
   grid-template-columns: 33% 66%;
-  align-items: start;
-  text-align: start;
-  padding: 100px;
+  padding: 7%;
+  font-size: 100%;
+  overflow-wrap: break-word;
 }
 
-.flex {
-  font-size: 100%;
-}
+
 
 .pictures {
   display: grid;
@@ -79,3 +77,4 @@
   padding: 3%;
   text-decoration: none;
 }
+
