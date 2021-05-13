@@ -60,6 +60,33 @@ section {
   grid-column: 2/4;   
 }
 
+.speech-bubble {
+  margin-bottom: 70px;
+  padding: 20px;
+  grid-column: 2/4;
+	position: relative;
+	background: #ffdcd3;
+  color: tomato;
+	border-radius: 1em;
+  text-align: center;
+}
+
+.speech-bubble:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 32px solid transparent;
+	border-right-color: #ffdcd3;
+  color: tomato;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -16px;
+	margin-left: -32px;
+}
+
 
 .pictures {
   display: grid;

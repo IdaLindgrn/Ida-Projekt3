@@ -32,10 +32,22 @@
 .heading {
     font-size: 100%;
     color: white;
-     text-align: center;
-     background-image: url('img/spaghetti.jpg');
-     padding: 120px;
+    text-align: center;
+    background-image: url('img/spaghetti.jpg');
+    background-size: 100%;
+    padding: 120px;
 }
+
+.heading2 {
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  background-image: url('img/annie-spratt-kZO9xqmO_TA-unsplash.jpg');
+  background-size: 100%;
+  padding: 120px;
+}
+
+
 /* </header> */
 
 /* <main> */
