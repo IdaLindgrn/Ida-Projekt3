@@ -12,41 +12,49 @@
 <body>
   
   <div class="wrapper">
-    <div class="rubrik">
-      <h1>Skicka ett meddlande</h1>
-      <p>Har du en fråga eller vill veta mer om vårat företag? Ställ den här!</p>
+    <div class="heading">
+      <h1>Send a message</h1>
+      <p>Do you have a question or want to know more about our company? Ask it here!</p>
     </div>
   
     <div class="form">
   
       <div class="top-form">
         <div class="inner-form">
-          <div class="label">Namn</div>
-          <input type="text" placeholder="namn">
+          <div class="label">Name</div>
+          <input type="text" placeholder="name">
         </div>
         <div class="inner-form">
           <div class="label">Email</div>
           <input type="text" placeholder="example@gmail.com">
         </div>
         <div class="inner-form">
-          <div class="label">Telefon</div>
+          <div class="label">Telephone</div>
           <input type="text" placeholder="072456789">
         </div>
       </div>
   
       <div class="bottom-form">
         <div class="inner-form">
-          <div class="label">Meddelande</div>
-          <textarea placeholder="Ditt meddelande"></textarea>
+          <div class="label">Message</div>
+          <textarea placeholder="your message"></textarea>
         </div>
       </div>
   
-      <input type="checkbox" id="fråga" name="fråga" value="Reklam">
-      <label for="vehicle1"> Vill du få mail om nyheter?</label><br>
+      <input type="checkbox" id="question" name="question" value="Advertising">
+      <label for="vehicle1">Do you want to receive emails about news?</label><br>
 
       <div class="btn">
-      <button type="submit">Skicka</button>
-    </div>
+        <button type="button"
+        onclick ="document.getElementById('demo').innerHTML =
+        'I am going to change HTML content' ">Send</button>
+     </div>
+
+<script>
+function myFunction() {
+  alert("Thank you for your message!");
+}
+</script>
 
     </div>
   </div>

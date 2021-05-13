@@ -13,8 +13,7 @@
     padding: 50px
   }
 
-
-.rubrik {
+  .heading {
     text-align: center;
   }
   
@@ -62,15 +61,12 @@
   .top-form .inner-form:last-child {
     margin-right: 0;
   }
-  
-  
-  
+
   .bottom-form textarea {
     height: 120px;
   }
   
   .btn {
-    text-align: left;
     margin-top: 4%;
   }
   
